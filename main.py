@@ -8,7 +8,7 @@ def read_data(file_path):
 
 # Функция для построения точечного графика
 def scatter_plot(x, y, label):
-    plt.plot(x, y, label=label)
+    plt.scatter(x, y, label=label)
 
 # Основная функция программы
 def main():
